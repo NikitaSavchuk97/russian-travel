@@ -1,0 +1,36 @@
+.intro__text {
+    width: 100%;
+    margin: 0 0 33px 0;
+}
+
+/* big desktop */
+@media screen and (max-width: 1440px) {
+  
+}
+
+/* small desktop / big laptop */
+@media screen and (max-width: 1280px) {
+  
+}
+
+/* small laptop */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .intro__text {
+        line-height: 22px;
+    }
+}
+
+/* phohe */
+@media screen and (max-width: 425px ) {
+    .intro__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

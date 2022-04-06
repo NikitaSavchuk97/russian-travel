@@ -1,0 +1,10 @@
+.header {
+  width: 90%;
+  margin: 28px auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "header__logo . . header__lang";
+  justify-content: space-between;
+}

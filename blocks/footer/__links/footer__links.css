@@ -1,0 +1,45 @@
+.footer__links {
+    grid-area: links;
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    grid-template-rows: 1fr;
+    gap: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* big desktop */
+@media screen and (max-width: 1440px) {
+  
+}
+
+/* small desktop / big laptop */
+@media screen and (max-width: 1280px) {
+  
+}
+
+/* small laptop */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .footer__links {
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(5, 1fr);
+        grid-row: 1/2;
+        gap: 32px;
+    }
+}
+
+/* phohe */
+@media screen and (max-width: 425px ) {
+    .footer__links {
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 32px;
+    }
+}

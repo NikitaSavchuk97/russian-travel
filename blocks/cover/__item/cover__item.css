@@ -1,0 +1,73 @@
+.cover__item {
+    min-height: 740px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+    position: relative;
+}
+.cover__item::before {
+    content: '';
+    background: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: opacity 0.4s ease-in-out;
+}
+.cover__item:hover::before {
+   opacity: .8;
+}
+
+/* big desktop */
+@media screen and (max-width: 1440px) {
+  
+}
+
+/* small desktop / big laptop */
+@media screen and (max-width: 1280px) {
+  
+}
+
+/* small laptop */
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+    }
+    .cover__item {
+        min-height: 640px;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .cover {
+        width: 100%;
+    }
+    .cover__item {
+        min-height: 480px;
+    }
+}
+
+/* phohe */
+@media screen and (max-width: 425px ) {
+    .cover {
+        width: 100%;
+        margin: 0 auto 64px auto;
+    }
+    .cover__item {
+        min-height: 350px;
+    }
+}
+

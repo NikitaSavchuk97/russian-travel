@@ -1,0 +1,39 @@
+.intro {
+    max-width: 690px;
+    margin: 0 auto 92px 10%;
+    color: #ffffff;
+}
+
+
+/* big desktop */
+@media screen and (max-width: 1440px) {
+  
+}
+
+/* small desktop / big laptop */
+@media screen and (max-width: 1280px) {
+  
+}
+
+/* small laptop */
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0 auto 92px 5%;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 90%;
+        margin: 0 auto 88px auto;
+    }
+}
+
+/* phohe */
+@media screen and (max-width: 425px ) {
+    .intro {
+        width: 90%;
+        margin: 0 auto 64px auto;
+    }
+}
