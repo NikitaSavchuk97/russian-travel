@@ -38,6 +38,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+div, p, a, title, header, h1, h2, h3, h4, footer, img, section {
+  box-sizing: border-box;
+    border: 1px solid red;
+}
+
 /*
 @font-face {
   font-family: 'Inter';
@@ -160,8 +165,5 @@
   src: url(../russian-travel/vendor/Inter/Inter-BlackItalic.woff2) format("woff2"),
        url(../russian-travel/vendor/Inter/Inter-BlackItalic.woff) format("woff");
 }
-div, p, a, title, header, h1, h2, h3, h4, footer, img, section {
-  box-sizing: border-box;
-    border: 1px solid red;
-}
 */
+

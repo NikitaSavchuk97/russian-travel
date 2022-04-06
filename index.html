@@ -4,7 +4,7 @@
 	<head>
 
     	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<link rel="stylesheet" href="./pages/index.css">
 		<title>Путешествия по России</title>
 
@@ -14,10 +14,10 @@
 
     	<header class="header">
 			<div class="header__logo"></div>
-			<div class="header__lang">
-    			<a class="header__lang_link_ru link" href="#">Ru</a>
-    			<a class="header__lang_link_en link" href="#">En</a>
-	        </div>
+			<ul class="header__links">
+    			<li><a class="header__link header__link_active link" href="#">Ru</a></li>
+    			<li><a class="header__link link" href="#">En</a></li>
+	        </ul>
 		</header>
 
 		<main class="content">
@@ -51,7 +51,7 @@
 					<li>Аэропортов <span class="intro__span-accent">241</span></li>
 				</ul>
 			</section>
-
+			
 			<section class="photo-grid">
 				<img class="photo-grid__item" src="../russian-travel/images/photo-grid-train.jpg" alt="Фото">
 				<img class="photo-grid__item" src="../russian-travel/images/photo-grid-atharva-tulsi.jpg" alt="Фото">
@@ -99,7 +99,7 @@
 					<img class="place__image" src="../russian-travel/images/place-kolsky.jpg" alt="Фото">
 					<div class="place__website">
 						<p class="place__url-heading">URL</p>
-						<a class="place__link link" href="http://park-kosa.ru" target="_blank">National Geographic</a>
+						<a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
 					</div>
 					<div class="place__paragraphs">
 						<p class="place__paragraph-first">
@@ -125,7 +125,7 @@
 					<img class="place__image" src="../russian-travel/images/place-altai.jpg" alt="Фото">
 					<div class="place__website">
 						<p class="place__url-heading">URL</p>
-						<a class="place__link link" href="http://park-kosa.ru" target="_blank">Facebook</a>
+						<a class="place__link link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
 					</div>
 					<div class="place__paragraphs">
 						<p class="place__paragraph-first">
@@ -149,7 +149,7 @@
 					<img class="place__image" src="../russian-travel/images/place-winter-baikal.jpg" alt="Фото">
 					<div class="place__website">
 						<p class="place__url-heading">URL</p>
-						<a class="place__link link" href="http://park-kosa.ru" target="_blank">vk.com/baikalmile</a>
+						<a class="place__link link" href="https://vk.com/baikalmile" target="_blank">vk.com/baikalmile</a>
 					</div>
 					<div class="place__paragraphs">
 						<p class="place__paragraph-first">
@@ -171,7 +171,7 @@
 					<img class="place__image" src="../russian-travel/images/place-karelia.jpg" alt="Фото">
 					<div class="place__website">
 						<p class="place__url-heading">URL</p>
-						<a class="place__link link" href="http://park-kosa.ru" target="_blank">vodlozero.ru</a>
+						<a class="place__link link" href="http://vodlozero.ru" target="_blank">vodlozero.ru</a>
 					</div>
 					<div class="place__paragraphs">
 						<p class="place__paragraph-second">
@@ -190,7 +190,7 @@
 			</section>
 		
 			<section class="cover">
-				<a class="cover__item" href="#" target="_blank">
+				<a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
 					<h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
 					<p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
 				</a>
@@ -199,11 +199,11 @@
 
 		<footer class="footer">
 			<ul class="footer__links">
-				<li><a class="footer__link link" href="#" target="_blank">Карты</a></li>
-				<li><a class="footer__link link" href="#" target="_blank">Погода</a></li>
-				<li><a class="footer__link link" href="#" target="_blank">Расписание</a></li>
-				<li><a class="footer__link link" href="#" target="_blank">Клендарь</a></li>
-				<li><a class="footer__link link" href="#" target="_blank">Путешествия</a></li>
+				<li><a class="footer__link link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+				<li><a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+				<li><a class="footer__link link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+				<li><a class="footer__link link" href="https://calendar.yandex.ru" target="_blank">Клендарь</a></li>
+				<li><a class="footer__link link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
 			</ul>
 			<p class="footer__copyright">&copy; 2022 Савчук Никита</p>
 		</footer>

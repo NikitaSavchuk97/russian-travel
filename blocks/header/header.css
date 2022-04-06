@@ -5,6 +5,5 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas:
-  "header__logo . . header__lang";
-  justify-content: space-between;
+  "header__logo . header__links";
 }
