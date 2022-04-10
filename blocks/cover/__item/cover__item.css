@@ -30,6 +30,8 @@
    opacity: .8;
 }
 
+
+
 /* big desktop */
 @media screen and (max-width: 1440px) {
   
@@ -42,9 +44,6 @@
 
 /* small laptop */
 @media screen and (max-width: 1024px) {
-    .cover {
-        width: 100%;
-    }
     .cover__item {
         min-height: 640px;
     }
@@ -52,9 +51,6 @@
 
 /* tablet */
 @media screen and (max-width: 768px) {
-    .cover {
-        width: 100%;
-    }
     .cover__item {
         min-height: 480px;
     }
@@ -62,10 +58,6 @@
 
 /* phohe */
 @media screen and (max-width: 425px ) {
-    .cover {
-        width: 100%;
-        margin: 0 auto 64px auto;
-    }
     .cover__item {
         min-height: 350px;
     }

@@ -39,12 +39,5 @@
 
 /* phohe */
 @media screen and (max-width: 425px ) {
-    .footer {
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content max-content;
-        grid-template-areas:
-        "links"
-        "copyright";
-        gap: 48px;
-    }
+    
 }

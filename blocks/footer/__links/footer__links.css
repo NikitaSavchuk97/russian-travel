@@ -37,9 +37,5 @@
 
 /* phohe */
 @media screen and (max-width: 425px ) {
-    .footer__links {
-        grid-template-columns: max-content;
-        grid-template-rows: repeat(5, 1fr);
-        gap: 32px;
-    }
+    
 }

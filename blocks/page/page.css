@@ -1,34 +1,10 @@
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(../../vendor/Inter-Black.woff2) format("woff2"),
-       url(../../vendor/Inter-Black.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../../vendor/Inter-Bold.woff2) format("woff2"),
-       url(../../vendor/Inter-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../../vendor/Inter-Regular.woff2) format("woff2"),
-       url(../../vendor/Inter-Regular.woff) format("woff");
-}
 
 .page {
   min-width: 320px;
   max-width: 1440px;
   margin: 0 auto 0 auto;
   background-color: #2A2C2F;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #ffffff;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
@@ -37,132 +13,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 /*
 div, p, a, title, header, h1, h2, h3, h4, footer, img, section {
   box-sizing: border-box;
     border: 1px solid red;
 }
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-Thin.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-Thin.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 100;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-ThinItalic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-ThinItalic.woff) format("woff");
-}  
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-ExtraLight.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-ExtraLight.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 200;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-ExtraLightItalic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-ExtraLightItalic.woff) format("woff");
-}  
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-Light.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-Light.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 300;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-LightItalic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-LightItalic.woff) format("woff");
-}  
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-Italic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-Italic.woff) format("woff");
-}  
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-Medium.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-MediumItalic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-MediumItalic.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-SemiBold.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-SemiBoldItalic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-SemiBoldItalic.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-BoldItalic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-BoldItalic.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-ExtraBold.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-ExtraBold.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 800;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-ExtraBoldItalic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-ExtraBoldItalic.woff) format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 900;
-  font-display: swap;
-  src: url(../russian-travel/vendor/Inter/Inter-BlackItalic.woff2) format("woff2"),
-       url(../russian-travel/vendor/Inter/Inter-BlackItalic.woff) format("woff");
-}
 */
-

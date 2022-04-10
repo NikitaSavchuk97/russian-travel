@@ -3,3 +3,31 @@
     margin: 0 auto 92px auto;
     font-family: "Inter", Arial, sans-serif;
 }
+
+/* big desktop */
+@media screen and (max-width: 1440px) {
+  
+}
+
+/* small desktop / big laptop */
+@media screen and (max-width: 1280px) {
+  
+}
+
+/* small laptop */
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+}
+
+/* phohe */
+@media screen and (max-width: 425px ) {
+    .cover {
+        margin: 0 auto 64px auto;
+    }
+}

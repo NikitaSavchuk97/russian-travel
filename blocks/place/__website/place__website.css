@@ -34,7 +34,5 @@
     .place__website {
         width: 90%;
         margin: 0 auto 0 auto;
-        grid-row: 2/3;
-        grid-column: 1/2;
     }
 }

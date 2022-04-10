@@ -33,9 +33,5 @@
 
 /* phohe */
 @media screen and (max-width: 425px ) {
-    .place__image {
-        max-width: 100%;
-        grid-row: 3/4;
-        grid-column: 1/2;
-    }
+    
 }

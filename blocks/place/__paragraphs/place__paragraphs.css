@@ -42,11 +42,5 @@
     .place__paragraphs {
         width: 90%;
         margin: 0 auto 0 auto;
-        grid-row: 4/5;
-        grid-column: 1/2;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
     }
 }
